@@ -4,7 +4,7 @@
 
 이 프로젝트는 Rust 프로그래밍 언어에서 자주 쓰이는 관용구와 디자인 패턴을 모아둔
 [Rust 비공식 오픈소스 책 프로젝트](https://github.com/rust-unofficial/patterns)를 한국어로 번역하였습니다.
-번역본은 [이곳](https://vlwkaos.github.io/patterns/)에서 읽으실 수 있습니다.
+번역본은 [이곳](https://vlwkaos.github.io/rust-patterns-kr/)에서 읽으실 수 있습니다.
 
 ## 기여하는 법
 
