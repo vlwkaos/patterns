@@ -1,40 +1,30 @@
-# Introduction
+# 소개
 
-## Participation
+## 참여하기
 
-If you are interested in contributing to this book, check out the
-[contribution guidelines](https://github.com/rust-unofficial/patterns/blob/master/CONTRIBUTING.md).
+이 책에 기여하고 싶다면 [contribution guidelines](https://github.com/rust-unofficial/patterns/blob/master/CONTRIBUTING.md)를 확인하세요.
 
-## Design patterns
+## 디자인 패턴 
 
-In software development, we often come across problems that share
-similarities regardless of the environment they appear in. Although the
-implementation details are crucial to solve the task at hand, we may
-abstract from these particularities to find the common practices that
-are generically applicable.
+소프트웨어 개발을 하다보면 어떤 환경에서 일하든 간에 비슷한 문제를 자주 접하게 됩니다.
+물론, 주어진 문제를 해결하기 위해선 요구사항에 맞춰 구체적으로 구현해야 하겠지만, 
+문제를 해결함에 있어 특징을 잘 추려보면 이곳저곳에 적용할 수 있는 좀 더 일반화된 방법을 알 수 있게됩니다. 
 
-Design patterns are a collection of reusable and tested solutions to
-recurring problems in engineering. They make our software more modular,
-maintainable, and extensible. Moreover, these patterns provide a common
-language for developers, making them an excellent tool for effective
-communication when problem-solving in teams.
+디자인 패턴은 소프트웨어 공학 분야에서 이미 시험대를 거쳐 검증된 재사용 가능한 해결책의 모음입니다.
+디자인 패턴은 소프트웨어를 보다 모듈화, 확장, 유지보수에 용이한 구조로 만들어줍니다.
+또한 개발자들이 문제를 해결하기 위해 보다 효과적으로 소통할 수 있도록 도와주는 훌륭한 도구로도 사용됩니다.
 
-## Design patterns in Rust
+## Rust 디자인 패턴
 
-Rust is not object-oriented, and the combination of all its characteristics,
-such as functional elements, a strong type system, and the borrow checker,
-makes it unique.
-Because of this, Rust design patterns vary with respect to other
-traditional object-oriented programming languages.
-That's why we decided to write this book. We hope you enjoy reading it!
-The book is divided in three main chapters:
+Rust는 객체지향이 아닙니다. Rust는 함수형 프로그래밍적 요소, 강타입 시스템, 버로우 체커 등을 채택하고 있으며,
+이러한 특징이 모여 Rust만의 고유한 성격을 띄게 합니다.
+때문에 Rust의 디자인 패턴은 기존의 객체 지향 언어의 디자인 패턴과는 사뭇 다른 양상을 보입니다.
+이것이 이 책을 집필하게 된 이유입니다. 재밌게 읽어주시기 바랍니다!
+이 책은 크게 다음 3개의 장으로 나누어져있습니다:
 
-- [Idioms](./idioms/index.md): guidelines to follow when coding.
-  They are the social norms of the community.
-  You should break them only if you have a good reason for it.
-- [Design patterns](./patterns/index.md): methods to solve common problems
-  when coding.
-- [Anti-patterns](./anti_patterns/index.md): methods to solve common problems
-  when coding.
-  However, while design patterns give us benefits,
-  anti-patterns create more problems.
+- [관용구](./idioms/index.md): 코드 작성시 참조할 수 있는 지침.
+  Rust 커뮤니티에서 일반적으로 쓰이는 방식입니다.
+  다른 방법이 더 낫다는 확실한 이유가 없다면 가급적 따르는게 좋습니다.
+- [디자인 패턴](./patterns/index.md): 코드 작성시 일반적인 문제 해결 방법.
+- [안티패턴](./anti_patterns/index.md): 코드 작성시 일반적인 문제 해결 방법. 
+  디자인 패턴은 사용시 장점이 더 많은 반면, 안티패턴은 더 많은 문제를 야기합니다.
