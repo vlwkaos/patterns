@@ -1,8 +1,8 @@
 [book]
 title = "Rust Design Patterns"
-authors = ["the rust-unofficial authors"]
+authors = ["the rust-unofficial authors", "vlwkaos(translator)"]
 description = "A catalogue of Rust design patterns, anti-patterns and idioms"
-language = "en"
+language = "ko"
 multilingual = false
 src = "."
 
@@ -14,7 +14,8 @@ edition = "2018"
 
 [output.html]
 default-theme = "rust"
-git-repository-url = "https://github.com/rust-unofficial/patterns"
+additional-css = ["typography.css"]
+git-repository-url = "https://github.com/vlwkaos/rust-patterns-kr"
 git-repository-icon = "fa-github"
 
 # [output.linkcheck]  # enable the "mdbook-linkcheck" renderer, disabled due to gh-actions

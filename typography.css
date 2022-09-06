@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+.content {
+  font-family: 'RIDIBatang';
+}
+
+.content ul,
+.content p{
+  line-height: 1.8em;
+}
